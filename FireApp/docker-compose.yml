@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  hangfire:
+    image: hantse/hangfire:latest
+    ports:
+      - "7253:7253"
